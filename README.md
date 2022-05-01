@@ -1,10 +1,5 @@
-# R_projects
----
-title: "Анализ выборочных совокупностей"
-output: word_document
-editor_options: 
-  chunk_output_type: console
----
+# Анализ выборочных совокупностей
+
 
 ```{r setup, include=FALSE}
 # Настройки R и knitr ----------------------------
