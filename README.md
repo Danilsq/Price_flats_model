@@ -1,7 +1,7 @@
 # Анализ выборочных совокупностей
 
 
-```{r setup, include=FALSE}
+{r setup, include=FALSE}
 # Настройки R и knitr ----------------------------
 # опции R
 options(width = 70, scipen = 16, digits = 3) 
@@ -9,9 +9,9 @@ options(width = 70, scipen = 16, digits = 3)
 knitr::opts_chunk$set(tidy = FALSE, # сохранять форматирование кода
                fig.width = 4.5, # ширина рисунков по умолчанию
                fig.height = 3)  # высота рисунков по умолчанию
-```
 
-```{r include=FALSE}
+
+{r include=FALSE}
 # Загрузим необходимые пакеты
 library(ggplot2)
 library(car)
@@ -24,7 +24,7 @@ library(agricolae)
 library(sandwich)
 # Установим тему для оформления графиков
 theme_set(theme_bw(base_size = 12))
-```
+
 
 
 # Введение
